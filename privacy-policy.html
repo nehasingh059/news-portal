@@ -1,0 +1,623 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>News PRO24</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Express News" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- for bootstrap working -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- web-fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+	</script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+</head>
+<body>
+	<!-- header-section-starts-here -->
+	<div class="header">
+		<div class="header-top">
+			<div class="wrap">
+				<div class="top-menu">
+					<ul>
+						<li><a href="index.html">होम</a></li>
+						<li><a href="about.html">हमारे बारे मे</a></li>
+						<li><a href="country.html">देश</a></li>
+						<li><a href="privacy-policy.html">गोपनीयता नीति</a></li>
+						<li><a href="contact.html">संपर्क करे</a></li>
+					</ul>
+				</div>
+				<div class="num">
+					<p> संपर्क नंबर : +918982088801</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="logo text-center">
+				<a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+			</div>
+			<div class="navigation">
+				<nav class="navbar navbar-default" role="navigation">
+		   <div class="wrap">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+			</div>
+			<!--/.navbar-header-->
+		
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					 <li><a href="index.html">होम</a></li>
+						<li><a href="sports.html">खेल</a></li>
+				   <li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">देश<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="country.html">
+प्रदेश</a></li>
+							
+						</ul>
+					  </li>
+					
+					<li><a href="politics.html">राजनीति</a></li>
+					  <li class="dropdown">
+						<a href="business.html" class="dropdown-toggle" data-toggle="dropdown">व्यापार<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-2">
+							<div class="row">
+								<div class="col-sm-6">
+									<ul class="multi-column-dropdown">
+										
+										<li><a href="business.html">बाज़ार</a></li>
+										<li class="divider"></li>
+										<li><a href="business.html">समीक्षा</a></li>
+										<li class="divider"></li>
+										<li><a href="shortcodes.html">लघु कोड</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-6">
+									<ul class="multi-column-dropdown">
+									   <li><a href="business.html">विशेषताएं</a></li>	
+										<li class="divider"></li>
+										<li><a href="entertainment.html">फ़िल्म</a></li>
+									    <li class="divider"></li>
+										<li><a href="sports.html">खेल</a></li>
+										<li class="divider"></li>
+										<li><a href="business.html">समीक्षा</a></li>
+										<li class="divider"></li>
+										<li><a href="business.html">भण्डार</a></li>
+									</ul>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li><a href="technology.html">प्रौद्योगिकी</a></li>
+				</ul>
+				<div class="search">
+					<!-- start search-->
+				    <div class="search-box">
+					    <div id="sb-search" class="sb-search">
+							<form>
+								<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+								<input class="sb-search-submit" type="submit" value="">
+								<span class="sb-icon-search"> </span>
+							</form>
+						</div>
+				    </div>
+					<!-- search-scripts -->
+					<script src="js/classie.js"></script>
+					<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+					<!-- //search-scripts -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--/.navbar-collapse-->
+	 <!--/.navbar-->
+			</div>
+		</nav>
+		</div>
+	</div>
+	<!-- header-section-ends-here -->
+	<!-- content-section-starts-here -->
+	<div class="main-body">
+		<div class="wrap">
+		<ol class="breadcrumb">
+			  <li><a href="index.html">
+होम</a></li>
+			  <li class="active">गोपनीयता नीति</li>
+			</ol>
+		<div class="privacy-page">
+			<div class="col-md-8 content-left">
+				<div class="privacy">
+					<h2 class="head">गोपनीयता नीति</h2>
+					<p>बस मुद्रण और टाइप बैठना उद्योग का डमी पाठ है। 1500 के दशक के बाद से उद्योग की मानक डमी पाठ रहा है.</p>
+					<p>लोकप्रिय विश्वास के विपरीत, बस यादृच्छिक पाठ नहीं है यह 45 ईसा पूर्व से शास्त्रीय लैटिन साहित्य के एक टुकड़े में जड़ें हैं, इसे 2000 वर्ष पुराना बना दिया है।</p>
+					<p>यह एक लंबे समय से स्थापित तथ्य है कि एक रीडर एक पेज की पठनीय सामग्री से विचलित हो जाएगा, जब इसके लेआउट को देखे। प्रयोग करने का मुद्दा यह है कि इसमें पत्रों का अधिक या कम सामान्य वितरण होता है, जैसा कि 'यहां सामग्री, यहां सामग्री' का उपयोग करने के विपरीत, इसे पढ़ने योग्य अंग्रेजी की तरह दिखता है कई डेस्कटॉप प्रकाशन पैकेज और वेब पेज के संपादक अब अपने मूल मॉडल पाठ के रूप मे उपयोग करते हैं, और 'लोरेम की खोज के लिए उनकी खोज में अभी भी कई वेब साइटों को उजागर किया जाएगा। कई वर्षों में कई संस्करण विकसित हुए हैं, कभी-कभी दुर्घटना से, कभी-कभी उद्देश्य पर</p>
+					<p>कई अंश उपलब्ध हैं, लेकिन अधिकांश लोगों को इंजेक्शन वाले हास्य या यादृच्छिक शब्दों से कुछ रूप में परिवर्तन हुआ है, जो थोड़ा सा भी विश्वसनीय नहीं लगते हैं.</p>
+					<ul>
+						<li><a href="#">यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक पठनीय द्वारा विचलित हो जाएगा
+.</a></li>
+						<li><a href="#">लोकप्रिय विश्वास के विपरीत, बस यादृच्छिक पाठ नहीं है यह 45 ईसा पूर्व से शास्त्रीय लैटिन साहित्य के एक टुकड़े में जड़ें हैं, इसे 2000 वर्ष पुराना बना दिया है.</a></li>
+						<li><a href="#">कई अंश उपलब्ध हैं, लेकिन बहुमत में परिवर्तन हुआ है।</a></li>
+						<li><a href="#">हम सभी के लिए एक त्रुटि है, लेकिन यह भी है कि हम सभी के लिए एक त्रुटि है, लेकिन हम सभी के बारे में पता करने के लिए,</a></li>
+						<li><a href="#">लेकिन मुझे आपको यह समझा जाना चाहिए कि आनंद के लिए निंदा करने और दर्द की प्रशंसा करने के इस सभी गलत विचार का जन्म कैसे हुआ और मैं आपको सिस्टम का पूरा खाता दूँगा। </a></li>
+						<li><a href="#">इस पर हमले और आरोप लगाया गया था और वह सिर्फ एक ही मौत की सजा सुनाई थी.</a></li>
+						<li><a href="#">दूसरी ओर, हम धर्मी आक्रोश और उन पुरुषों की नापसंदता की निंदा करते हैं जो इतने भ्रामक और हताश हुए हैं.</a></li>
+						
+						<li><a href="#">ये मामले पूरी तरह से सरल और अंतर करने में आसान हैं। एक नि: शुल्क समय में, जब हमारी पसंद की शक्ति अप्रतिष्ठित होती है.</a></li>
+						<li><a href="#">कई अंश उपलब्ध हैं, लेकिन बहुमत.</a></li>
+						<li><a href="#">जो उचित लग रहा है उत्पन्न इसलिए हमेशा पुनरावृत्ति से मुक्त है.</a></li>
+						<li><a href="#">यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक पठनीय द्वारा विचलित हो जाएगा.</a></li>
+						<li><a href="#">1500 के बाद से इस्तेमाल किए जाने वाले का मानक हिस्सा उन रुचि के लिए नीचे दिया गया है</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 side-bar">
+			<div class="first_half">
+				<div class="categories">
+					<header>
+						<h3 class="side-title-head">श्रेणियाँ</h3>
+					</header>
+					<ul>
+						<li><a href="business.html">व्यापार</a></li>
+						<li><a href="technology.html">प्रौद्योगिकी</a></li>
+							<li><a href="country.html">देश</a></li>
+						<li><a href="sports.html">खेल</a></li>
+						<li><a href="politics.html">राजनीति</a></li>
+						</a></li>
+					</ul>
+				</div>
+				<div class="newsletter">
+					
+					<h1 class="side-title-head">समाचार पत्रिका</h1>
+					<p class="sign">हमारे निशुल्क न्यूज़लेटर्स प्राप्त करने के लिए साइन अप करें!</p>
+					<form>
+						<input type="text" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+						<input type="submit" value="submit">
+					</form>
+				</div>
+				<div class="list_vertical">
+		         	 	<section class="accordation_menu">
+						  <div>
+						    <input id="label-1" name="lida" type="radio" checked/>
+						   <label for="label-1" id="item1"><i class="ferme"> </i>लोकप्रिय पोस्ट<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+						    <div class="content" id="a1">
+						    	<div class="scrollbar" id="style-2">
+								 <div class="force-overflow">
+									<div class="popular-post-grids">
+										<div class="popular-post-grid">
+											<div class="post-img">
+												<a href="single.html"><img src="images/bus2.jpg" alt="" /></a>
+											</div>
+											<div class="post-text">
+												<a class="pp-title" href="single.html"> जन मीडिया उद्योग का हिस्सा</a>
+												<p>On Feb 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>3 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="popular-post-grid">
+											<div class="post-img">
+												<a href="single.html"><img src="images/bus1.jpg" alt="" /></a>
+											</div>
+											<div class="post-text">
+												<a class="pp-title" href="single.html"> बस डमी पाठ मुद्रण है</a>
+												<p>On Apr 14 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>2 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="popular-post-grid">
+											<div class="post-img">
+												<a href="single.html"><img src="images/bus3.jpg" alt="" /></a>
+											</div>
+											<div class="post-text">
+												<a class="pp-title" href="single.html"> कई रूपांतर हैं</a>
+												<p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="popular-post-grid">
+											<div class="post-img">
+												<a href="single.html"><img src="images/bus4.jpg" alt="" /></a>
+											</div>
+											<div class="post-text">
+												<a class="pp-title" href="single.html">लेकिन मैं समझाने चाहिए यह सब कैसे</a>
+												<p>On Jan 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>1 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									</div>
+                                </div>
+                              </div>
+						  </div>
+						  <div>
+						    <input id="label-2" name="lida" type="radio"/>
+						    <label for="label-2" id="item2"><i class="icon-leaf" id="i2"></i>हाल के पोस्ट<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+						    <div class="content" id="a2">
+						       <div class="scrollbar" id="style-2">
+								   <div class="force-overflow">
+									<div class="popular-post-grids">
+											<div class="popular-post-grid">
+												<div class="post-img">
+													<a href="single.html"><img src="images/tec2.jpg" alt="" /></a>
+												</div>
+												<div class="post-text">
+													<a class="pp-title" href="single.html">जन मीडिया उद्योग का हिस्सा</a>
+													<p>On Feb 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>3 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div class="popular-post-grid">
+												<div class="post-img">
+													<a href="single.html"><img src="images/tec1.jpg" alt="" /></a>
+												</div>
+												<div class="post-text">
+													<a class="pp-title" href="single.html">बस डमी पाठ मुद्रण है</a>
+													<p>On Apr 14 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>2 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div class="popular-post-grid">
+												<div class="post-img">
+													<a href="single.html"><img src="images/tec3.jpg" alt="" /></a>
+												</div>
+												<div class="post-text">
+													<a class="pp-title" href="single.html">कई रूपांतर हैं</a>
+													<p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div class="popular-post-grid">
+												<div class="post-img">
+													<a href="single.html"><img src="images/tec4.jpg" alt="" /></a>
+												</div>
+												<div class="post-text">
+													<a class="pp-title" href="single.html">लेकिन मैं समझाने चाहिए यह सब कैसे</a>
+													<p>On Jan 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>1 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+						    </div>
+						  </div>
+						  <div>
+						    <input id="label-3" name="lida" type="radio"/>
+						    <label for="label-3" id="item3"><i class="icon-trophy" id="i3"></i>टिप्पणियाँ<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+						    <div class="content" id="a3">
+						       <div class="scrollbar" id="style-2">
+							    <div class="force-overflow">
+								 <div class="response">
+						<div class="media response-info">
+							<div class="media-body response-text-right">
+								<p>गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं;
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि,.</p>
+								<ul>
+									<li>MARCH 21, 2015</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="media response-info">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img class="media-object" src="images/icon1.png" alt="" />
+								</a>
+								<h5><a href="#">उपयोगकर्ता नाम</a></h5>
+							</div>
+							<div class="media-body response-text-right">
+								<p> गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं;
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि,.</p>
+								<ul>
+									<li>MARCH 26, 2015</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>		
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="media response-info">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img class="media-object" src="images/icon1.png" alt="" />
+								</a>
+								<h5><a href="#">उपयोगकर्ता नाम</a></h5>
+							</div>
+							<div class="media-body response-text-right">
+								<p> गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं;
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि,.</p>
+								<ul>
+									<li>MAY 25, 2015</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>		
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="media response-info">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img class="media-object" src="images/icon1.png" alt="" />
+								</a>
+								<h5><a href="#">उपयोगकर्ता नाम</a></h5>
+							</div>
+							<div class="media-body response-text-right">
+								<p>गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं;
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि,.</p>
+								<ul>
+									<li>FEB 13, 2015</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>		
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="media response-info">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img class="media-object" src="images/icon1.png" alt="" />
+								</a>
+								<h5><a href="#">उपयोगकर्ता नाम</a></h5>
+							</div>
+							<div class="media-body response-text-right">
+								<p> गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं,
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि.</p>
+								<ul>
+									<li>JAN 28, 2015</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>		
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="media response-info">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img class="media-object" src="images/icon1.png" alt="" />
+								</a>
+								<h5><a href="#">उपयोगकर्ता नाम</a></h5>
+							</div>
+							<div class="media-body response-text-right">
+								<p> गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं;
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि,.</p>
+								<ul>
+									<li>APR 18, 2015</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>		
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="media response-info">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img class="media-object" src="images/icon1.png" alt="" />
+								</a>
+								<h5><a href="#">उपयोगकर्ता नाम</a></h5>
+							</div>
+							<div class="media-body response-text-right">
+								<p>गाजर, बढ़ाया छूट उपलब्ध की मार्ग के कई रूपों रहे हैं,
+लेकिन श्रम और दु: ख, तो कुछ बातों का लंबी और जीवन शक्ति करने के लिए है कि.</p>
+								<ul>
+									<li>DEC 25, 2014</li>
+									<li><a href="single.html">जवाब दे दो</a></li>
+								</ul>		
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					</div>
+
+                                <div class="side-bar-articles">
+						<div class="side-bar-article">
+							<a href="single.html"><img src="images/sai.jpg" alt="" /></a>
+							<div class="side-bar-article-title">
+								<a href="single.html">लोकप्रिय विश्वास के विपरीत,  बस यादृच्छिक पाठ नहीं है</a>
+							</div>
+						</div>
+						<div class="side-bar-article">
+							<a href="single.html"><img src="images/sai2.jpg" alt="" /></a>
+							<div class="side-bar-article-title">
+								<a href="single.html">अंश के कई रूप हैं</a>
+							</div>
+						</div>
+						<div class="side-bar-article">
+							<a href="single.html"><img src="images/sai3.jpg" alt="" /></a>
+							<div class="side-bar-article-title">
+								<a href="single.html">लेकिन मैं कैसे सब खुशी के इस गलत विचार आप को समझाने चाहिए</a>
+							</div>
+						</div>
+					 </div>
+					  </div>
+					 <div class="secound_half">
+					 <div class="tags">
+						<header>
+							<h3 class="title-head">टैग</h3>
+						</header>
+						<p>
+						<a class="tag1" href="single.html">वेरो ईओएस में</a>
+						<a class="tag2" href="single.html">वेरो ईओएस में</a>
+						<a class="tag3" href="single.html">दूसरे पर</a>
+						<a class="tag4" href="single.html">दर्द था</a>
+						<a class="tag5" href="single.html">तर्कसंगत मुठभेड़</a>
+						<a class="tag6" href="single.html">praesentium voluptatum</a>
+						<a class="tag7" href="single.html">हर किसी के लिए</a>
+						<a class="tag8" href="single.html">जो इतने से भरे हुए हैं</a>
+						<a class="tag9" href="single.html">जब कुछ भी नहीं</a>
+						<a class="tag10" href="single.html">के कारण</a>
+						<a class="tag11" href="single.html">दर्द से बचने के लिए</a>
+						<a class="tag12" href="single.html">गिरावट के मौसम</a>
+						<a class="tag13" href="single.html">पीछा या इच्छाएं</a>
+						<a class="tag14" href="single.html">बोरान और</a>
+						<a class="tag15" href="single.html">सिसरो द्वारा लिखित</a>
+						<a class="tag16" href="single.html">बहुत बीतने:</a>
+						<a class="tag17" href="single.html">व्यायाम किसी भी</a>
+						<a class="tag18" href="single.html">>गलत विचार</a>
+						<a class="tag19" href="single.html">हम कर रहे हैं</a>
+						<a class="tag20" href="single.html">इन में रखती है</a>
+						</p>
+					 </div>					 
+					 <div class="popular-news">
+						<header>
+							<h3 class="title-popular">लोकप्रिय समाचार</h3>
+						</header>
+						<div class="popular-grids">
+							<div class="popular-grid">
+								<a href="single.html"><img src="images/popular-4.jpg" alt="" /></a>
+								<a class="title" href="single.html">यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक विचलित हो जाएगा</a>
+								<p>On Aug 31, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+							</div>
+							<div class="popular-grid">
+								<a href="single.html"><img src="images/popular-1.jpg" alt="" /></a>
+								<a class="title" href="single.html">यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक विचलित हो जाएगा</a>
+								<p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+							</div>
+							<div class="popular-grid">
+								<iframe width="100%" src="https://www.youtube.com/embed/LGMn_yi_62k" frameborder="0" allowfullscreen></iframe>
+								<a class="title" href="single.html">सलमान खान के लिए ऐश्वर्या राय बच्चन की नवीनतम शॉकिंग न्यूज</a>
+								<p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+							</div>
+							<div class="popular-grid">
+								<a href="single.html"><img src="images/popular-3.jpg" alt="" /></a>
+								<a class="title" href="single.html">यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक विचलित हो जाएगा</a>
+								<p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>	
+		</div>
+		</div>
+	<!-- content-section-ends-here -->
+	<!-- footer-section-starts-here -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="wrap">
+				<div class="col-md-3 col-xs-6 col-sm-4 footer-grid">
+					<h4 class="footer-head">हमारे बारे मे</h4>
+					<p>यह एक लंबे समय से स्थापित तथ्य है कि एक रीडर एक पेज की पठनीय सामग्री से विचलित हो जाएगा, जब इसके लेआउट को देखे।</p>
+					<p> का प्रयोग करने की बात यह है कि इसमें पत्रों का अधिक या कम सामान्य वितरण होता है, जैसा कि 'यहां सामग्री का उपयोग करने के विपरीत है</p>
+				</div>
+				<div class="col-md-2 col-xs-6 col-sm-2 footer-grid">
+					<h4 class="footer-head">श्रेणियाँ</h4>
+					<ul class="cat">
+						<li><a href="business.html">व्यापार</a></li>
+						<li><a href="technology.html">प्रौद्योगिकी</a></li>
+						<li><a href="country.html">देश</a></li>
+						<li><a href="sports.html">खेल</a></li>
+						
+						<li><a href="politics.html">राजनीति</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-xs-6 col-sm-6 footer-grid">
+					<h4 class="footer-head">फ़्लिकर फ़ीड</h4>
+					<ul class="flickr">
+						<li><a href="#"><img src="images/bus4.jpg"></a></li>
+						<li><a href="#"><img src="images/bus2.jpg"></a></li>
+						<li><a href="#"><img src="images/bus3.jpg"></a></li>
+						<li><a href="#"><img src="images/tec4.jpg"></a></li>
+						<li><a href="#"><img src="images/tec2.jpg"></a></li>
+						<li><a href="#"><img src="images/tec3.jpg"></a></li>
+						<li><a href="#"><img src="images/bus2.jpg"></a></li>
+						<li><a href="#"><img src="images/bus3.jpg"></a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-12 footer-grid">
+					<h4 class="footer-head">संपर्क करें</h4>
+					<span class="hq">हमारे मुख्यालय</span>
+										<address>
+						<ul class="location">
+							<li><span class="glyphicon glyphicon-map-marker"></span></li>
+							<li>एबीवी-आईआईआईटीएम ग्वालियर मोरेना लिंक रोड</li>
+							<div class="clearfix"></div>
+						</ul>	
+						<ul class="location">
+							<li><span class="glyphicon glyphicon-earphone"></span></li>
+							<li>+918982088801</li>
+							<div class="clearfix"></div>
+						</ul>	
+						<ul class="location">
+							<li><span class="glyphicon glyphicon-envelope"></span></li>
+							<li><a href="mailto:info@example.com">newspro24@example.com</a></li>
+							<div class="clearfix"></div>
+						</ul>						
+					</address>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="wrap">
+				<div class="copyrights col-md-6">
+					<p>© 2018 एक्सप्रेस समाचार. सर्वाधिकार सुरक्षित</p>
+				</div>
+				<div class="footer-social-icons col-md-6">
+					<ul>
+						<li><a class="facebook" href="#"></a></li>
+						<li><a class="twitter" href="#"></a></li>
+						<li><a class="flickr" href="#"></a></li>
+						<li><a class="googleplus" href="#"></a></li>
+						<li><a class="dribbble" href="#"></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- footer-section-ends-here -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				wrapID: 'toTop', // fading element id
+				wrapHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---->
+</body>
+</html>
